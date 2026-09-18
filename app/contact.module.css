@@ -34,6 +34,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 28px clamp(20px, 4vw, 56px);
+  gap: 20px;
 }
 .word {
   font-family: var(--font-display), serif;
