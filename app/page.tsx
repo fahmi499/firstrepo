@@ -85,12 +85,12 @@ export default function ContactPage() {
           <span>Hamidi</span>
           <small>Dental &amp; Skin Care Clinic</small>
         </div>
-        <ul className={styles.navLinks}>
+        {/* <ul className={styles.navLinks}>
           <li><a href="#">About</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">Find a dentist</a></li>
           <li><a href="#">Contact</a></li>
-        </ul>
+        </ul> */}
       </div>
       </div>
       
