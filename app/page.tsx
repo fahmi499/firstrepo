@@ -82,14 +82,15 @@ export default function ContactPage() {
     <div className={`${styles.page} ${fraunces.variable} ${inter.variable}`}>
       <div className={styles.nav}>
         <div className={styles.word}>
-          <span>Hamidi</span>
-          <small>Dental &amp; Skin Care Clinic</small>
+          <span> Global Dental Clinic </span>
+          {/* <small>Dental &amp; Skin Care Clinic</small> */}
+          {/* <small>Dental Clinic </small> */}
         </div>
         <ul className={styles.navLinks}>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Find a dentist</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#"> About </a></li>
+          <li><a href="#"> Services</a></li>
+          <li><a href="#"> Find a dentist</a></li>
+          <li><a href="/contact-us"> Contact Us</a></li>
         </ul> 
       </div>
       </div>

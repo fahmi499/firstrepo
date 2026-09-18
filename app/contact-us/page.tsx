@@ -82,8 +82,8 @@ export default function ContactPage() {
     <div className={`${styles.page} ${fraunces.variable} ${inter.variable}`}>
       <div className={styles.nav}>
         <div className={styles.word}>
-          <span>Hamidi</span>
-          <small>Dental &amp; Skin Care Clinic</small>
+          <span>Global Dental </span>
+          {/* <small>Dental &amp; Skin Care Clinic</small> */}
         </div>
         {/* <ul className={styles.navLinks}>
           <li><a href="#">About</a></li>
@@ -136,7 +136,7 @@ export default function ContactPage() {
               <div className={styles.contactText}>
                 <p className={styles.label}>Email us</p>
                 <p className={styles.value}>
-                  <a href="mailto:hello@hamididental.com">hello@hamididental.com</a>
+                  <a href="mailto:hello@globaldental.com">hello@globaldental.com</a>
                 </p>
               </div>
             </div>
@@ -263,8 +263,7 @@ export default function ContactPage() {
                 <circle cx={12} cy={16} r={0.5} fill="currentColor" />
               </svg>
               <span>
-                By submitting, you&apos;re allowing Hamidi Dental &amp; Skin
-                Care Clinic to contact you by phone, message, or email about
+                By submitting, you&apos;re allowing Global Dental contact you over phone, message, or email about
                 your enquiry.
               </span>
             </div>
