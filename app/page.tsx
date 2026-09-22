@@ -320,7 +320,7 @@ export default function HomePage() {
             <li><a href="#skin-care">Skin Care</a></li>
             <li><a href="#doctors">Doctors</a></li>
             <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#contact-us">Contact Us</a></li>
+            <li><a href="contact-us">Contact Us</a></li>
           </ul>
           <div className={styles.navCta}>
             <button className={`${styles.btn} ${styles.btnNavy}`}>
