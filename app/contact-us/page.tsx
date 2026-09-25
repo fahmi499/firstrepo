@@ -82,7 +82,8 @@ export default function ContactPage() {
     <div className={`${styles.page} ${fraunces.variable} ${inter.variable}`}>
       <div className={styles.nav}>
         <div className={styles.word}>
-          <span>Global Dental </span>
+          {/* <span>Global Dental </span> */}
+          <span><a href="/#dental-care">Global Dental Clinic</a></span>
           {/* <small>Dental &amp; Skin Care Clinic</small> */}
         </div>
         {/* <ul className={styles.navLinks}>
@@ -140,8 +141,35 @@ export default function ContactPage() {
                 </p>
               </div>
             </div>
+          {/* </div> */}
+          {/* ADDRESS */}
+          <div className={styles.contactRow}>
+              <div className={styles.iconBadge}>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M12 21s-7-4.35-7-11a7 7 0 0114 0c0 6.65-7 11-7 11z" />
+                  <circle cx="12" cy="10" r="2.5" />
+                </svg>
+              </div>
+              <div className={styles.contactText}>
+                <h2>Visit Us At</h2>
+                <p className={styles.value}>
+                  <p>
+                  #12, Indiranagar 100 Feet Road,
+                  <br />
+                  Bengaluru, Karnataka 560038
+                  </p>
+                </p>
+              </div>
+            </div>
           </div>
-
+          {/* <div>
+              <h4>Visit Us</h4>
+              <p>
+                #12, Indiranagar 100 Feet Road,
+                <br />
+                Bengaluru, Karnataka 560038
+              </p>
+            </div> */}
           <div className={styles.socialBlock}>
             <p className={styles.label}>Keep in touch</p>
             <div className={styles.socialIcons}>

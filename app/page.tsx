@@ -361,7 +361,7 @@ export default function HomePage() {
               <span>Patients treated</span>
             </div>
             <div>
-              <strong>15+ yrs</strong>
+              <strong>10+ yrs</strong>
               <span>Combined experience</span>
             </div>
             <div>
